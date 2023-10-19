@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Calculadora de Fecha de Nacimiento</h1>
+
+    <p>Ingresa tu edad:</p>
+    <input type="number" id="edadInput" min="0">
+    <button id="calcularButton">Calcular Fecha de Nacimiento</button>
+
+    <p>Resultado:</p>
+    <p>Tu fecha de nacimiento es: <span id="resultadoFechaNacimiento"></span></p>
+
+    <p>Calcular la diferencia de edades con otra persona:</p>
+    <input type="number" id="edadOtraPersona" min="0" placeholder="Edad de la otra persona">
+    <button id="calcularDiferenciaButton">Calcular Diferencia de Edades</button>
+
+    <p>Resultado:</p>
+    <p>Tu edad es: <span id="tuEdad"></span></p>
+    <p>Tu año de nacimiento es: <span id="tuAnioNacimiento"></span></p>
+    <p>La edad de la otra persona es: <span id="otraEdad"></span></p>
+    <p>El año de nacimiento de la otra persona es: <span id="otroAnioNacimiento"></span></p>
+    <p>La diferencia de edades es: <span id="diferenciaEdades"></span></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
